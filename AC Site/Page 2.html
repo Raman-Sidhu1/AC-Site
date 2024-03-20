@@ -1,36 +1,33 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 
 <html>
-	<head>
-		<title>Ace Combat 4</title>
-
-		<link rel="stylesheet" href="style.css">
-
-	</head>
-	
-	<body>
-		
-		<div id="container" class="extra">
-
-			<header class="extra">
-
-				<h1>Mobius-1</h1>
-
-			</header>
-
-			<nav class="extra">
-				<a href="index.html"> Home Page </a> |
-				<a href="Page 2.html"> Mobius-1 (The Grim Reaper)</a> |
-				<a href="Page 3.html"> Razgriz-1 (The Ghost of Razgriz) </a> |
-				<a href="Page 4.html"> Galm-1 (The Demon Lord of the Round Table) </a> 
-
-				<br>
-			</nav>
-
-			<section class="extra">
-
-				<img src="images/Mobius1.jpg" width="100%" alt="Ace Combat 4 - Mobius 1">
-
-			</section>
-	</body>
+    <head>
+        <title>Ace Combat 4</title>
+        <link rel="stylesheet" href="style.css">
+        <script>
+            function showMore() {
+                var moreText = document.getElementById("more");
+                moreText.style.display = "block";
+            }
+        </script>
+    </head>
+    <body>
+        <div id="container" class="extra">
+            <header class="extra">
+                <h1>Mobius-1</h1>
+            </header>
+            <nav class="extra">
+                <a href="index.html"> Home Page </a> |
+                <a href="Page 2.html"> Mobius-1 (The Grim Reaper)</a> |
+                <a href="Page 3.html"> Razgriz-1 (The Ghost of Razgriz) </a> |
+                <a href="Page 4.html"> Galm-1 (The Demon Lord of the Round Table) </a> 
+                <br>
+            </nav>
+            <section class="extra">
+                <img src="images/Mobius1.jpg" width="100%" alt="Ace Combat 4 - Mobius 1">
+                <button onclick="showMore()">Show More</button>
+                <p id="more" style="display: none;">Mobius-1, also known as The Grim Reaper, is a legendary ace pilot known for his skills and precision in combat. He played a pivotal role in the Continental War and is remembered as a hero.</p>
+            </section>
+        </div>
+    </body>
 </html>
